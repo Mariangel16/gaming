@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif; 
+}
+
+.articulos{
+    background: pink;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.descripcion{
+text-align: justify;
+ color: white;
+ width: 500px;
+}
+.imagen{
+display: inline-block;
+
+}
+.descripcion h1{
+    font-size: 50px;
+    text-align: center;
+}
+.boton {
+    border: 1px solid black; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: white; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
+.boton a:visited{
+    text-decoration: none;
+    color: black;
+}

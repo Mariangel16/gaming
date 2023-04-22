@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F0FCFE ;
+}
+
+#nom-slogan h1{
+    font-size: 30px;
+}
+
+span{
+    font-size: 20px;
+}
+
+
+
+#logo{
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+
+/* Cambio en la paleta de color*/
+header{
+    background-color:#DF84D7;
+    height: 110px;
+    width: 100%;
+    text-align: center;
+}
+.busqueda{
+    float: right;
+    top: right;
+    border-top: 15px;
+    margin-bottom: 25px;
+}
+
+#busqueda input{
+    size: 30px;
+}
+
+nav ul li{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+nav ul{
+    
+    align-items: center;
+    text-align: center;
+    margin-left: 90px;
+}
+
+#informacion section img{
+   float: left;
+}
+
+#informacion section h2{
+    margin-left: 315px;
+    vertical-align: text-top;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#informacion section p{
+    text-align: justify;
+    margin-left: 250px;
+    vertical-align: middle;
+    font-size: 27px;
+    margin-right: 40px;
+    
+}
+
+#ayuda h4{
+    font-size: 25px;
+    text-align: justify;
+}
+
+#ayuda p{
+    font-size: 25px;
+}
+
+#ayuda input{
+    margin-right: 25px;
+}
+
+#boton{
+    height: 5vh;
+    width: 90px;
+    text-align: center;
+    margin-left: 685px;
+}
+
+.btn-color{
+    background: #6259CA;
+    color: #ffffff;
+}
+/*para que el link no este en azul*/
+.btn-color a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn-color:hover{
+    background: #443BA8;
+}
+
+.btn{
+    width: 100%;
+    border: 0;
+    padding:13px 13px;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+#titulo h4{
+    text-align: center;
+    font-size: 60px;
+    margin-right: 70px;
+}
+
+table th{
+    border: 1px solid;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+}
+
+#producto1 h4{
+    text-align:unset;
+}
+
+#producto2 img{
+    justify-content: center;
+}
+
+
+
+#producto2 h4{
+    text-align: left;
+}
+
+#tabla{
+    margin-left: 250px;
+}
+
+#tabla p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif; ;
+}
+
+#contacto{
+    padding: 5px 5px 15px;
+
+}
+
+
+#contacto h4{
+    font-size: 20px;
+    padding: 5px 5px 15px;
+    text-align: center;
+}
+
+#contacto h3{
+    font-size: 20px;
+    padding: 5px 5px 15px;
+    text-align: center;
+}
+
+/*Cambio de background para el copy*/
+#copyright{
+    background-color: #E924A2;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#copyright p{
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+#copyright h4{
+    font-size: 100px;
+}
+
+#copyright i{
+    font-size: 20   px;
+}
+
+#copyright h4{
+    font-size: 100px;
+}
+
+a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+}
